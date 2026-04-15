@@ -1,0 +1,260 @@
+Algorithm,Dataset,TotalTransactions,GEN,MinSup,FoundItems,Runtime(ms),PeakMemory(MB)
+Inc-CHARM (Vertical Incremental),dataset-chess,3696,500,0.2000,13241,3174,719.95
+Inc-dCharm (Exact Probabilistic Diffset),dataset-chess,3696,500,0.2000,13241,3848,921.70
+Inc-FP-Close (On-the-fly Subsumption),dataset-chess,3696,500,0.2000,13241,8753,110.81
+Inc-FP-Close (CFI-Tree Subsumption),dataset-chess,3696,500,0.2000,13241,9794,108.26
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),dataset-chess,3696,500,0.2000,13241,10633,97.54
+True-Incremental FP-Close (Canonical Tree Logic),dataset-chess,3696,500,0.2000,5,6,16.82
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),dataset-chess,3696,500,0.2000,13241,9418,107.55
+True-Incremental FP-Close (Canonical Tree Logic),dataset-chess,3696,500,0.2000,16,6,16.74
+True-Incremental FP-Close (Dual-Tree / Exact Projection),dataset-chess,3696,500,0.2000,12354,54780,557.11
+Inc-FP-Close (Exact Uncertain Mining - Prefix Projection),dataset-chess,3696,500,0.2000,13241,13015,97.94
+Inc-FP-Close (Exact Uncertain Mining - Prefix Projection),dataset-chess,3696,500,0.4000,294,270,34.14
+True-Incremental FP-Close (Dual-Tree / Exact Projection),dataset-chess,3696,500,0.5000,100,783,374.82
+True-Incremental FP-Close (Dual-Tree / Exact Projection),dataset-chess,3696,500,0.4000,344,1961,628.83
+True-Incremental FP-Close (Dual-Tree / Exact Projection),dataset-chess,3696,500,0.2000,12354,43118,490.24
+True-Incremental FP-Close (Dual-Tree / Exact Projection),dataset-mushrooms,8416,0,0.1000,1734,5509,632.53
+True-Incremental FP-Close (Dual-Tree / Exact Projection),dataset-BMS1,59602,0,0.0200,13,139,124.28
+True-Incremental FP-Close (Dual-Tree / Exact Projection),dataset-BMS1,59602,0,0.0010,945,2145,788.42
+Inc-CHARM (Vertical Incremental),dataset-BMS1,59602,0,0.0010,892,434,113.78
+Inc-dCharm (Exact Probabilistic Diffset),dataset-BMS1,59602,0,0.0010,892,453,158.88
+True-Incremental FP-Close (Dual-Tree / Exact Projection),dataset-BMS1,59602,0,0.0010,945,2297,1012.60
+Inc-CHARM (Vertical Incremental),dataset-BMS1,59602,0,0.0010,892,415,105.34
+Inc-dCharm (Exact Probabilistic Diffset),dataset-BMS1,59602,0,0.0010,892,618,316.45
+Inc-FP-Close (Exact Uncertain Mining - Prefix Projection),dataset-BMS1,59602,0,0.0010,892,761,215.36
+Inc-dCharm (True Diffset Optimization),dataset-chess,3696,500,0.2000,13241,8897,1304.55
+Inc-CHARM (Vertical Incremental),dataset-chess,3696,500,0.2000,13241,3495,689.68
+Inc-dCharm (True Diffset Optimization),dataset-chess,3696,500,0.2000,13241,7627,783.94
+Inc-FP-Close (Custom I/O Persistent Exact Mining),dataset-chess,3696,500,0.2000,13241,9493,140.43
+Inc-CHARM (Vertical Incremental),dataset-chess,3696,500,0.2000,13241,3221,658.41
+Inc-dCharm (True Diffset Optimization),dataset-chess,3696,500,0.2000,13241,7177,1381.20
+Inc-FP-Close (Custom I/O Persistent Exact Mining),dataset-chess,3696,500,0.2000,13241,8478,268.63
+Inc-CHARM (Vertical Incremental),dataset-chess-ACCUMULATED,4196,500,0.2000,13369,4020,756.38
+Inc-dCharm (True Diffset Optimization),dataset-chess-ACCUMULATED,4196,500,0.2000,13369,8755,787.19
+Inc-FP-Close (Custom I/O Persistent Exact Mining),dataset-chess-ACCUMULATED,4196,500,0.2000,13369,10265,115.27
+Inc-CHARM (Vertical Incremental),dataset-chess-ACCUMULATED,4196,500,0.2000,13369,4672,778.30
+Inc-dCharm (True Diffset Optimization),dataset-chess-ACCUMULATED,4196,500,0.2000,13369,11705,823.78
+Inc-FP-Close (Custom I/O Persistent Exact Mining),dataset-chess-ACCUMULATED,4196,500,0.2000,13369,11685,121.00
+Inc-CHARM (Vertical Incremental),dataset-chess-ACCUMULATED,4196,500,0.2000,13369,3584,788.24
+Inc-dCharm (True Diffset Optimization),dataset-chess-ACCUMULATED,4196,500,0.2000,13369,8883,788.65
+Inc-FP-Close (Custom I/O Persistent Exact Mining),dataset-chess-ACCUMULATED,4196,500,0.2000,13369,10930,271.13
+Inc-CHARM (Vertical Incremental),dataset-chess-ACCUMULATED,4196,500,0.2000,13369,5166,736.44
+Inc-dCharm (True Diffset Optimization),dataset-chess-ACCUMULATED,4196,500,0.2000,13369,9676,826.78
+Inc-FP-Close (Custom I/O Persistent Exact Mining),dataset-chess-ACCUMULATED,4196,500,0.2000,13369,11211,295.99
+Inc-CHARM (Vertical Incremental),dataset-chess-ACCUMULATED,4196,500,0.2000,13369,4460,788.77
+Inc-dCharm (True Diffset Optimization),dataset-chess-ACCUMULATED,4196,500,0.2000,13369,9989,828.56
+Inc-FP-Close (Custom I/O Persistent Exact Mining),dataset-chess-ACCUMULATED,4196,500,0.2000,13369,10437,142.81
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess.txt,5696,0,0.2000,993,1796,74.38
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess.txt,5696,0,0.2000,993,890,196.04
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess.txt,5696,0,0.2000,993,1929,957.23
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-normal.txt,5696,0,0.2000,993,1820,79.31
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-normal.txt,5696,0,0.2000,993,896,440.62
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-normal.txt,5696,0,0.2000,993,1702,550.69
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-BMS1.txt,59602,0,0.2000,0,125,75.41
+Inc-CHARM (Vertical Incremental),datasets/dataset-BMS1.txt,59602,0,0.2000,0,64,90.78
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-BMS1.txt,59602,0,0.2000,0,80,101.86
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-BMS1.txt,60602,1000,0.2000,0,166,482.87
+Inc-CHARM (Vertical Incremental),datasets/dataset-BMS1.txt,60602,1000,0.2000,0,72,498.87
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-BMS1.txt,60602,1000,0.2000,0,58,510.87
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-normal.txt,60602,0,0.2000,0,191,77.91
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-normal.txt,60602,0,0.2000,0,69,101.65
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-normal.txt,60602,0,0.2000,0,62,119.88
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-normal.txt,3196,0,0.2000,0,157,54.45
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,3613,514.32
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,7545,1255.97
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess.txt,6196,500,0.2000,0,168,70.16
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess.txt,6196,500,0.2000,670,811,377.83
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess.txt,6196,500,0.2000,670,1413,583.61
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess.txt,6696,500,0.2000,402,1283,72.45
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess.txt,6696,500,0.2000,402,735,198.06
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess.txt,6696,500,0.2000,402,1293,507.58
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,7165,180.95
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,3311,505.98
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,6714,1192.40
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-normal.txt,3696,500,0.2000,6830,5315,182.31
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-normal.txt,3696,500,0.2000,6830,2136,513.95
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-normal.txt,3696,500,0.2000,6830,3975,942.78
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-mushrooms.txt,8416,0,0.1000,2000,1580,81.28
+Inc-CHARM (Vertical Incremental),datasets/dataset-mushrooms.txt,8416,0,0.1000,2000,548,202.05
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-mushrooms.txt,8416,0,0.1000,2000,1534,939.04
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-BMS1.txt,59602,0,0.0100,42,631,70.87
+Inc-CHARM (Vertical Incremental),datasets/dataset-BMS1.txt,59602,0,0.0100,42,142,51.46
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-BMS1.txt,59602,0,0.0100,42,197,115.81
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-BMS1.txt,59602,0,0.0010,448,1638,199.30
+Inc-CHARM (Vertical Incremental),datasets/dataset-BMS1.txt,59602,0,0.0010,892,494,114.74
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-BMS1.txt,59602,0,0.0010,892,1028,522.79
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-BMS1.txt,60602,1000,0.0200,13,353,119.95
+Inc-CHARM (Vertical Incremental),datasets/dataset-BMS1.txt,60602,1000,0.0200,12,85,134.95
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-BMS1.txt,60602,1000,0.0200,12,110,147.95
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-accumulated.txt,3696,500,0.2000,0,117,57.18
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-accumulated.txt,3696,500,0.2000,6836,2365,516.91
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-accumulated.txt,3696,500,0.2000,6836,4683,1124.40
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-accumulated.txt,3696,0,0.2000,6836,4660,75.07
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-accumulated.txt,3696,0,0.2000,6836,2179,516.11
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-accumulated.txt,3696,0,0.2000,6836,4538,1025.80
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-accumulated.txt,4696,1000,0.2000,2088,2344,80.55
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-accumulated.txt,4696,1000,0.2000,2088,1242,541.66
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-accumulated.txt,4696,1000,0.2000,2088,2830,686.07
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-accumulated.txt,3696,500,0.2000,6829,4943,183.97
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-accumulated.txt,3696,500,0.2000,6829,2304,516.57
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-accumulated.txt,3696,500,0.2000,6829,4475,905.53
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,7836,180.88
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,2945,506.54
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,6242,792.79
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,8209,181.13
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,3123,503.18
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,7231,1084.01
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-accumulated.txt,3696,0,0.2000,6829,5170,73.94
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-accumulated.txt,3696,0,0.2000,6829,2459,518.31
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-accumulated.txt,3696,0,0.2000,6829,4200,949.32
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-accumulated.txt,4696,1000,0.2000,2080,2639,190.93
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-accumulated.txt,4696,1000,0.2000,2080,1146,517.93
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-accumulated.txt,4696,1000,0.2000,2080,2353,957.54
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-BMS1.txt,60602,0,0.0100,40,565,85.33
+Inc-CHARM (Vertical Incremental),datasets/dataset-BMS1.txt,60602,0,0.0100,40,164,104.81
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-BMS1.txt,60602,0,0.0100,40,197,116.37
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-BMS1-ACCUMULATED.txt,61102,500,0.0100,39,649,208.42
+Inc-CHARM (Vertical Incremental),datasets/dataset-BMS1-ACCUMULATED.txt,61102,500,0.0100,40,142,130.92
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-BMS1-ACCUMULATED.txt,61102,500,0.0100,40,173,142.92
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-BMS1.txt,60602,0,0.0010,866,1543,193.06
+Inc-CHARM (Vertical Incremental),datasets/dataset-BMS1.txt,60602,0,0.0010,866,482,163.08
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-BMS1.txt,60602,0,0.0010,866,1194,510.18
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-BMS1-ACCUMULATED.txt,61102,0,0.2000,0,142,52.44
+Inc-CHARM (Vertical Incremental),datasets/dataset-BMS1-ACCUMULATED.txt,61102,0,0.2000,0,60,68.92
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-BMS1-ACCUMULATED.txt,61102,0,0.2000,0,64,55.04
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-mushrooms-accumulated.txt,8416,0,0.0800,4,276,66.98
+Inc-CHARM (Vertical Incremental),datasets/dataset-mushrooms-accumulated.txt,8416,0,0.0800,3717,1018,547.57
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-mushrooms-accumulated.txt,8416,0,0.0800,3717,2298,1058.56
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-mushrooms-accumulated.txt,8416,0,0.1000,0,138,61.83
+Inc-CHARM (Vertical Incremental),datasets/dataset-mushrooms-accumulated.txt,8416,0,0.1000,2000,614,207.67
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-mushrooms-accumulated.txt,8416,0,0.1000,2000,1464,567.99
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-mushrooms.txt,8616,200,0.0100,3422,3390,224.85
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,8209,181.64
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,3026,501.75
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,7133,1251.47
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-accumulated.txt,5196,500,0.2000,1397,1772,78.18
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-accumulated.txt,5196,500,0.2000,1397,978,501.96
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-accumulated.txt,5196,500,0.2000,1397,1939,998.44
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-mushrooms-accumulated.txt,8616,200,0.2000,228,870,70.86
+Inc-CHARM (Vertical Incremental),datasets/dataset-mushrooms-accumulated.txt,8616,200,0.2000,228,352,73.46
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-mushrooms-accumulated.txt,8616,200,0.2000,228,501,188.58
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-mushrooms-accumulated.txt,8616,0,0.2000,228,869,71.61
+Inc-CHARM (Vertical Incremental),datasets/dataset-mushrooms-accumulated.txt,8616,0,0.2000,228,290,146.69
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-mushrooms-accumulated.txt,8616,0,0.2000,228,525,199.00
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess.txt,6696,0,0.2000,402,1306,72.30
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess.txt,6696,0,0.2000,402,655,192.25
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess.txt,6696,0,0.2000,402,1354,488.11
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,8221,190.69
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,3558,532.72
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,9396,1136.51
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,7496,179.31
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,3503,506.21
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,7101,1150.37
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-ACCUMULATED.txt,5396,200,0.2000,1203,1454,79.54
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-ACCUMULATED.txt,5396,200,0.2000,1203,980,271.90
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-ACCUMULATED.txt,5396,200,0.2000,1203,2170,644.70
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-mushrooms-accumulated.txt,9116,500,0.2000,192,854,71.22
+Inc-CHARM (Vertical Incremental),datasets/dataset-mushrooms-accumulated.txt,9116,500,0.2000,192,257,74.29
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-mushrooms-accumulated.txt,9116,500,0.2000,192,841,195.14
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-mushrooms.txt,8416,0,0.2000,245,554,67.00
+Inc-CHARM (Vertical Incremental),datasets/dataset-mushrooms.txt,8416,0,0.2000,245,281,156.18
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-mushrooms.txt,8416,0,0.2000,245,580,202.82
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,8543,65.14
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,3405,623.54
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,7974,698.91
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,14274,38.96
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,9249,422.57
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,20393,643.62
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-accumulated.txt,5896,500,0.2000,845,2677,70.15
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-accumulated.txt,5896,500,0.2000,845,1640,191.34
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-accumulated.txt,5896,500,0.2000,845,3646,516.46
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,11816,65.30
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,5999,505.37
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,11374,727.40
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,23646,27.73
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,11797,265.55
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,30447,764.67
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,21725,39.66
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,11539,415.74
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,18114,809.68
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-accumulated.txt,6396,500,0.2000,514,2173,68.94
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-accumulated.txt,6396,500,0.2000,514,1241,184.07
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-accumulated.txt,6396,500,0.2000,514,2442,523.68
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,16246,164.97
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,6527,1186.52
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,13151,1187.67
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,19225,115.47
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,5663,398.42
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,12310,715.11
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,15923,120.10
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,9228,319.77
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,19585,916.49
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,9824,173.18
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,3031,616.92
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,6540,819.47
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-accumulated.txt,6896,500,0.2000,359,1339,180.31
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-accumulated.txt,6896,500,0.2000,359,612,189.01
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-accumulated.txt,6896,500,0.2000,359,1111,530.49
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-normal.txt,3696,500,0.3000,921,1311,172.08
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-normal.txt,3696,500,0.3000,921,571,203.01
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-normal.txt,3696,500,0.3000,921,1103,470.66
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-accumulated.txt,6896,0,0.8000,0,68,45.03
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-accumulated.txt,6896,0,0.8000,0,77,32.99
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-accumulated.txt,6896,0,0.8000,0,53,48.99
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-normal.txt,3696,0,0.5000,24,452,60.81
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-normal.txt,3696,0,0.5000,24,170,31.67
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-normal.txt,3696,0,0.5000,24,177,53.35
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-accumulated.txt,6896,0,0.0800,28318,23583,181.02
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-accumulated.txt,6896,0,0.0800,28318,8823,432.15
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-accumulated.txt,6896,0,0.0800,28318,21252,1110.42
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-accumulated.txt,6896,0,0.0700,49697,38222,210.41
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-accumulated.txt,6896,0,0.0700,49697,16395,433.91
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-accumulated.txt,6896,0,0.0700,49697,36853,1110.39
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-accumulated.txt,7396,500,0.8000,0,100,58.28
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-accumulated.txt,7396,500,0.8000,0,74,44.21
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-accumulated.txt,7396,500,0.8000,0,56,60.21
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-accumulated.txt,7396,0,0.0800,21304,19600,187.40
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-accumulated.txt,7396,0,0.0800,21304,7050,435.27
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-accumulated.txt,7396,0,0.0800,21304,18083,1217.32
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-accumulated.txt,7396,0,0.0700,37548,35086,160.49
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-accumulated.txt,7396,0,0.0700,37548,13331,478.22
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-accumulated.txt,7396,0,0.0700,37548,31702,1284.61
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-normal.txt,3696,0,0.2000,6838,6620,360.53
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-normal.txt,3696,0,0.2000,6838,2255,620.00
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-normal.txt,3696,0,0.2000,6838,4228,750.25
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess.txt,6696,0,0.2000,402,1637,179.96
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess.txt,6696,0,0.2000,402,753,189.15
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess.txt,6696,0,0.2000,402,1234,463.86
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-normal.txt,3696,0,0.2000,6838,6749,173.41
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-normal.txt,3696,0,0.2000,6838,2445,500.86
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-normal.txt,3696,0,0.2000,6838,4431,908.09
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess.txt,6696,0,0.2000,402,1243,179.45
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess.txt,6696,0,0.2000,402,674,183.20
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess.txt,6696,0,0.2000,402,1177,493.99
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-normal.txt,3696,0,0.2000,6838,5438,481.10
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-normal.txt,3696,0,0.2000,6838,1778,465.60
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-normal.txt,3696,0,0.2000,6838,4070,822.47
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess.txt,7696,1000,0.2000,281,1253,181.84
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess.txt,7696,1000,0.2000,281,627,397.14
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess.txt,7696,1000,0.2000,281,978,497.37
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess.txt,7696,0,0.2000,281,1343,181.26
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess.txt,7696,0,0.2000,281,582,196.30
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess.txt,7696,0,0.2000,281,1021,528.96
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-mushrooms.txt,8416,0,0.2000,245,1240,176.62
+Inc-CHARM (Vertical Incremental),datasets/dataset-mushrooms.txt,8416,0,0.2000,245,262,172.20
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-mushrooms.txt,8416,0,0.2000,245,682,500.44
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-mushrooms.txt,8416,0,0.2000,245,1166,156.61
+Inc-CHARM (Vertical Incremental),datasets/dataset-mushrooms.txt,8416,0,0.2000,245,261,208.61
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-mushrooms.txt,8416,0,0.2000,245,730,239.20
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,12678,443.58
+Inc-CHARM (Vertical Incremental),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,3257,706.63
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-chess-normal.txt,3196,0,0.2000,13065,6520,778.40
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-BMS1.txt,60602,0,0.0100,40,705,64.80
+Inc-CHARM (Vertical Incremental),datasets/dataset-BMS1.txt,60602,0,0.0100,40,147,68.94
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-BMS1.txt,60602,0,0.0100,40,180,47.28
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-BMS1.txt,60602,0,0.0010,866,1459,122.23
+Inc-CHARM (Vertical Incremental),datasets/dataset-BMS1.txt,60602,0,0.0010,866,425,110.39
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-BMS1.txt,60602,0,0.0010,866,1065,309.59
+Inc-FP-Close (HeaderTable + Stateful CFI-Tree),datasets/dataset-BMS1.txt,61102,500,0.0200,12,184,59.08
+Inc-CHARM (Vertical Incremental),datasets/dataset-BMS1.txt,61102,500,0.0200,12,97,71.88
+Inc-dCharm (Exact Probabilistic Diffset),datasets/dataset-BMS1.txt,61102,500,0.0200,12,144,46.84
