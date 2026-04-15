@@ -1,0 +1,17 @@
+# 1. Bỏ qua các file Java đã biên dịch (không cần thiết vì có file .java rồi)
+*.class
+
+# 2. Bỏ qua thư mục cache (Nơi chứa đống file .dat khổng lồ của bạn)
+cache/
+*.dat
+
+# 3. Bỏ qua các file kết quả thực nghiệm (Vì chúng ta sẽ chạy lại để lấy kết quả mới)
+*.csv
+performance_log.txt
+result_*.txt
+
+# 4. Bỏ qua cấu hình riêng của VS Code hoặc các IDE khác
+.vscode/
+.idea/
+*.iml
+bin/
