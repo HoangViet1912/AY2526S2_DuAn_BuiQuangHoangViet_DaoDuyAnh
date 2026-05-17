@@ -1,0 +1,17 @@
+Algorithm: Inc-FP-Close 
+Dataset: datasets/dataset-mushrooms_dynamic.txt
+Total Transactions: 16916 (Added: 5000)
+Found CFIs: 12
+---------------------------------------------------
+[90] - Support: 12699.784784939535
+[90, 94] - Support: 9650.31485404606
+[90, 97] - Support: 9120.558222120431
+[94] - Support: 12404.414446660709
+[94, 97] - Support: 8889.204093779055
+[36] - Support: 12384.30635182267
+[36, 90] - Support: 9634.436136013068
+[36, 94] - Support: 9623.626412187932
+[36, 97] - Support: 8900.013817604198
+[97] - Support: 11716.816514124326
+[38] - Support: 10306.549611620263
+[41] - Support: 8931.3599196698
